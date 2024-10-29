@@ -1,0 +1,219 @@
+body {
+    background-color: rgb(49, 46, 46);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.quiz-container {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    font-family: 'Arial', sans-serif;
+}
+
+.quiz-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f1c40f;
+}
+
+.quiz-container .question {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.quiz-container .choices {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.quiz-container .choices button {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-container .choices button:hover {
+    background-color: #666;
+}
+
+.quiz-container .choices .checked {
+    background-color: #f1c40f;
+    color: black;
+}
+
+.quiz-container button[type='submit'] {
+    background-color: #f1c40f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-container button[type='submit']:hover {
+    background-color: #d4ac0d;
+}
+
+.result-container {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    font-family: 'Arial', sans-serif;
+}
+
+.result-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f1c40f;
+}
+
+.result-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.result-container button {
+    background-color: #f1c40f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.result-container button:hover {
+    background-color: #d4ac0d;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold; 
+  }
+  
+  input,
+  select {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    font-size: 16px; 
+  }
+  
+  button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    font-size: 18px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  }
+
+  body {
+    background-color: rgb(49, 46, 46);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.view-detail-container {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: 100px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+.view-detail-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f1c40f;
+}
+
+.view-detail-container p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.questions-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.question-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.question-item h3 {
+    font-size: 1.8rem;
+    color: #f1c40f;
+}
+
+.question-item p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.question-item strong {
+    font-size: 1.3rem;
+    color: red;
+}
+
+button {
+    background-color: #f1c40f;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #d4ac0d;
+}
